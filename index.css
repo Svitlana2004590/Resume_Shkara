@@ -1,0 +1,609 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1280px;
+  height: 1399px;
+  margin: 0 auto;
+  background: #f5f6f9;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  width: 1280px;
+  height: 1399px;
+  top: 0;
+  left: 0;
+  }
+.rectangle-1 {
+  position: absolute;
+  width: 418px;
+  height: 1303.66px;
+  right: 824px;
+  bottom: 45.274px;
+  background: rgba(101, 0, 255, 0.68);
+}
+.frame {
+  position: relative;
+  width: 345.82px;
+  height: 388.429px;
+  margin: 38.546px 0 0 33.396px;
+  background: #b1cbff;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+.image {
+  position: relative;
+  width: 346px;
+  height: 393px;
+  margin: -1.768px 0 0 -0.4px;
+  border-radius: 2px;
+}
+.contacts {
+  display: block;
+  position: relative;
+  height: 26.686px;
+  margin: 17.791px 0 0 19.392px;
+  color: #fbfbfb;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.686px;
+}
+.flex-row-b {
+  position: relative;
+  width: 229.469px;
+  height: 47.442px;
+  margin: 7.907px 0 0 19.392px;
+}
+.c-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 28.01px;
+  height: 47.442px;
+  top: 0;
+  left: 0;
+  color: #fbfbfb;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.sveta-email {
+  position: absolute;
+  width: 201.459px;
+  height: 47.442px;
+  top: 0;
+  left: 28.01px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.phone-number {
+  position: relative;
+  color: #fbfbfb;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sveta-email-2 {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.tech-skills {
+  display: block;
+  position: relative;
+  height: 26.686px;
+  margin: 42.5px 0 0 19.392px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.686px;
+}
+.tech-skills-list {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 359.825px;
+    height: 450.697px;
+    margin: 7.907px 0 0 19.392px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.soft-skills {
+  display: block;
+  position: relative;
+  height: 28.316px;
+  margin: 24.709px 0 0 19.392px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.818px;
+}
+.scrum-teamwork-problem-solving {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    height: 160.209px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+.front-end-developer-mice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 97px;
+  left: 498px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.svitlana-shkara {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 45px;
+  top: 122px;
+  left: 498px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.desire-learn-develop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 34px;
+  top: 183px;
+  left: 498px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.certificates {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 27px;
+  top: 224px;
+  left: 498px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.digitogram-web-ui {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 259px;
+  left: 596px;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+}
+.number {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 93px;
+  height: 86px;
+  top: 260px;
+  left: 512px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+}
+.drive-google-file {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 14px;
+  height: 77px;
+  top: 260px;
+  left: 498px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  overflow: hidden;
+}
+.drive-google-file-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 283px;
+  left: 570px;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+}
+.drive-google-file-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 307px;
+  left: 559px;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+}
+.work-experience {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30.908px;
+  top: calc(50% - 323.5px);
+  left: calc(50% - 142px);
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.mice-specialist-obriy-inc {
+  position: absolute;
+  width: 423.798px;
+  height: 22.895px;
+  top: 50%;
+  left: 50%;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  transform: translate(-33.51%, -1237.99%);
+}
+.mice-specialist {
+  position: relative;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.obriy-inc {
+  position: relative;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.october-ukraine {
+  position: absolute;
+  width: 330.53px;
+  height: 17.171px;
+  top: 50%;
+  left: 50%;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  transform: translate(-42.96%, -1487.97%);
+}
+.october {
+  position: relative;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.event-logistics {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 736px;
+    height: 192px;
+    top: 454px;
+    left: 473px;
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.airline-booking-agent {
+  position: absolute;
+  width: 423.798px;
+  height: 22.3px;
+  top: 678px;
+  left: 498px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.504px;
+}
+.airline-booking-agent-b {
+  position: relative;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.504px;
+}
+.compass {
+  position: relative;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.504px;
+}
+.ukraine-c {
+  position: absolute;
+  width: 394.479px;
+  height: 16.725px;
+  top: 703px;
+  left: 498px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.628px;
+}
+.february-2023-september-2023 {
+  position: relative;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.628px;
+}
+.information-handling {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 701px;
+    height: 164px;
+    top: 716px;
+    left: 473px;
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: hidden;
+}
+.turkey-guide {
+  position: absolute;
+  width: 423.798px;
+  height: 19.799px;
+  top: 904px;
+  left: 498px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.504px;
+}
+.turkey-guide-e {
+  position: relative;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.coral-travel {
+  position: relative;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.turkey {
+  position: absolute;
+  width: 309.872px;
+  height: 14.849px;
+  top: 930px;
+  left: 498px;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+.may-2022-november-2022 {
+  position: relative;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.tourist-services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 695px;
+  height: 120.553px;
+  top: 944px;
+  left: 473px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.education {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 27px;
+  top: 1131px;
+  left: 498px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.818px;
+}
+.hospitality-management {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 1166px;
+  left: 498px;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.504px;
+}
+.international-tourism {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 1194px;
+  left: 498px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.period-1{
+  position: absolute;
+  width: 427.154px;
+  height: 15px;
+  top: 1219px;
+  left: 498px;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 14.628px;
+}
+.september-2018-january-2023 {
+  position: relative;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 14.628px;
+}
+.trade-economics {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22.524px;
+  top: 1246px;
+  left: 498px;
+  color: #9652ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.504px;
+}
+.software-engineering {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.146px;
+  top: 1277.534px;
+  left: 498px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.066px;
+}
+.period-2 {
+    position: absolute;
+    width: 427.154px;
+    height: 16.893px;
+    color: #a8a8a8;
+    top: 1305.689px;
+    left: 498px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.628px;
+}
+/* Стиль для екранів шириною більше або рівно 1280px */
+@media screen and (min-width: 1280px) {
+}
+
+/* Стиль для екранів шириною від 768px до 1279px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+}
+    
+
+/* Стиль для екранів шириною менше або рівно 767px */
+@media screen and (max-width: 767px) {
+}
